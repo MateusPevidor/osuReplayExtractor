@@ -1,6 +1,6 @@
 # osu!ReplayExtractor
 
-osu!ReplayExtractor is a node script that allows you to get info about cursor movement and key clicking from osu!Replays.
+osu!ReplayExtractor is a node script that allows you to get info about cursor movement and key clicking from osu!Replays.<br />
 You are able to extract replays data directly from the [osu!api] or .osr replay files.
 
 ## Installation
