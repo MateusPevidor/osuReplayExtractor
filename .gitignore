@@ -1,0 +1,8 @@
+node_modules
+*.log
+*.txt
+*.osr
+decode64.js
+binaryReader.js
+lzmadecode.js
+testRequest.js
