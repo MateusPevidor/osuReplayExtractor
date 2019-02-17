@@ -5,7 +5,7 @@ You are able to extract replays data directly from the [osu!api] or .osr replay 
 
 ## Installation
 
-1- Clone this git repository.
+1- Clone this git repository. <br />
 2- Run the following command inside the repository to install the dependencies:
 ```
 npm i
