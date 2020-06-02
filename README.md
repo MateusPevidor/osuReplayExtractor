@@ -3,7 +3,7 @@
 osu!replayExtractor is a node script that allows you to get info about cursor movement and key clicking from osu!replays.<br />
 You are able to extract replays data directly from the [osu!api] or .osr replay files.
 
-## Installation
+## 🛠 Installation
 
 1- Clone this git repository. <br />
 2- Run the following command inside the repository to install the dependencies:
@@ -11,7 +11,7 @@ You are able to extract replays data directly from the [osu!api] or .osr replay 
 npm i
 ```
 
-## Usage
+## 🕹 Usage
 Inside the src/ directory run:
 1- To retrieve replay info using the osu!api:
 ```
@@ -40,7 +40,7 @@ Example:
 node readOsrFile.js "idke - DragonForce - Cry Thunder [Unholy Darkness] (2018-11-24) Osu" replay2.txt
 ```
 
-## Development
+## 💻 Development
 The require.js script uses [RequireJS] to make GET requests to the osu!api. The base64 response is then decoded using the built-in Buffer class, becoming a lzma stream. Finally the lzma stream is decompressed using the [lzma] module, and then saved to a text file using the filesystem node module.
 
 The readOsrFile.js script uses the [StreamBuffer] module to read BinaryArrays. The script reads all the data from the .osr following [.osr File Format wiki] until it reaches the lzma stream. Finally it decompresses the stream using the lzma module and saves it to a text file using the filesystem node module.
